@@ -1,0 +1,127 @@
+body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(114, 47, 55);
+    margin: 0;
+}
+.logo{width: 25%;}
+.logo img{
+    margin: 1% 0 0 5%;
+    width:20%;
+    border-radius: 50%;
+    border: 1.3px solid white;
+}
+.navbar p{
+    /* width: 80%; */
+    margin: 0;
+    font-size: 300%;
+    color: white;
+}
+.menuBar{
+    display: none;
+}
+.navigation{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgb(62, 60, 60);
+    background-color: rgb(114, 47, 55);
+}
+.logo0{display: none;}
+.navList0{
+    margin: 0 10% 0 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 60%;
+}
+.navList1{
+    margin: 0.2% 0 0.2% 7%;
+    padding: 0;
+    align-items: center;
+    list-style: none;
+}
+.navList1 input{width:60% }
+.navList0 li{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.navList1 li{margin: 0 10% 0 0;align-items: center;}
+.navList0 li:hover{background: white;; font-size: 110%;}
+.navList1 li:hover{background: white;font-size: 110%;}
+.navList0 li:hover a{color: black;}
+.navList1 li:hover a{color: black;}
+a{color: white;text-decoration: none;}
+
+/* main section of LMS */
+
+main{width: 100%;margin: 0.5% 0 0 0;display: flex;}
+.leftButtonDisplay{
+    width: 19%;
+    height: max-content;
+}
+.leftButtonDisplay button, .rightButtonDisplay button{
+    cursor: pointer;
+    background-color:rgb(114, 47, 55);
+    border-color: white;
+    color: white;
+    text-align: left;
+    padding: 2%;
+    width: 95%;
+    height: 6.5%;
+    margin: 0.5%;
+    align-items: start;
+}
+.rightButtonDisplay button:hover{
+    background-color: white;
+    color: rgb(114, 47, 55);
+    border: 2px solid rgb(114, 47, 55);
+}
+.leftButtonDisplay button:hover{ 
+    background-color: white;
+    color: rgb(114, 47, 55);
+    border: 2px solid rgb(114, 47, 55);
+}
+.display{
+    text-align: center;
+    width: 80%;
+    padding: 3%;
+    margin: 0.5%;
+    background-color: rgb(240, 207, 207);
+}
+.rightButtonDisplay{
+    height: max-content;
+    width: 19%;
+}
+
+/* footer in LMS */
+footer{margin: 0;padding: 0;}
+.footer{background-color: rgb(114, 47, 55);}
+.footerUpper{display: flex;}
+.footerUpperLeft{width: 30%;margin: 0 5% 0 0;}
+.footerUpperLeft img{width: 100%;}
+.footerUpperRight p{
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 140%;
+}
+.footerUpperRight button{
+    margin: 0.3%;
+    width: 30%;
+    border: 0px solid;
+    text-align: left;
+    background-color: rgb(114, 47, 55);
+    color: white;
+}
+.footerUpperRight button:hover{border: 1px solid ;background-color: rgb(196, 81, 94);}
+.footerLower{text-align: center;padding: 0;}

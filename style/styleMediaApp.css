@@ -1,0 +1,65 @@
+@media(width < 800px ){
+    .navbar{
+        justify-content: space-between;
+    }
+    .logo{display: none;}
+    .lMSName{
+        padding: 0 0 0 8%;
+        text-align: center;
+        margin: 3% 0;
+        font-size: 50%;
+        color: white;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: -350px;
+        height: 80%;
+        margin: 2% 0 2% 2%;
+        width: 42%;
+        border-radius: 9px;
+        backdrop-filter: blur(100px);
+        background-color: rgb(114, 47, 55);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        transition: all 0.278s linear;
+    }
+    .logo0{
+        display: flex;
+        width: 100%;
+        border-bottom: 1px solid white;
+    }
+    .logo0 img{
+        position: inherit;
+        width: 40%;
+        border: 1.2px solid white;
+        border-radius: 50%;
+        margin: 5%;
+    }
+    .navList0{
+        display: flex;
+        flex-wrap: wrap;
+        width: 95%;
+        margin: 0;
+    }
+    .navList0 li{
+        justify-content: flex-start;
+        margin:1% 0 0 5%;
+        width: 100%;
+    }
+    .navList1
+    {
+        visibility: hidden;
+    }
+    .menuBar{
+        display:flex;
+    }
+    .menuBar button{
+        background-color: transparent;
+        border: 0;
+    }
+    .footerUpperLeft{
+        display: none;
+    }
+    
+}
